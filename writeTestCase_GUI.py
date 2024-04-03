@@ -4,7 +4,7 @@ from tkinter import messagebox
 import re
 
 # Set up the OpenAI API
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 # Base system role message
 base_system_role_message = "You are a test case writer, write a test case for each main scenario with numbered test steps under each test case. Each step should have an Expected Result attached."
